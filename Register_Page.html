@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+<body bgcolor="lightblue" class="full">
+   <div class="submit-container">
+    <fieldset>
+       <legend id="Registration Form"><h2>Registration Form</h2></legend>
+
+            <form action="Register.php" method="post">
+        <h3>Personal Details:</h3>
+         
+         <label>first_name</label>:<input type ="text" required name="first_name" placeholder="Enter Name"><br><br>
+
+         <label>middel_name</label>: <input type ="text" name="middle_name" required placeholder="Enter Father Name"><br><br>
+
+         <label>last_name</label>: <input type ="text"name="last_name" required placeholder="Enter Surname"><br><br>
+
+         <label>dob</label>:<input type ="date" name="dob"><br><br>
+
+         <!-- dropdown menu using select and option tags -->
+
+         <label>City:</label>
+         <select name="city" id="City">
+            <option value="Surat">Surat</option>
+            <option value="Vadodara">Vadodara</option>
+            <option value="Nadiad">Nadiad</option>
+            <option value="Valsad">Valsad</option>
+            <option value="Anand">Anand</option>
+         </select><br><br>
+ 
+         <label>address</label>:<textarea  name="address" type ="text" cols="40" rows="02"  resize="null"></textarea><br><br>
+        <a href="login.html"> Already have account?</a><br>
+    <br><button type="submit" class="submit-button">Register</button><br><br>
+     </form>
+
+</form>
+</div>
+</fieldset>
+</body>
+</html>
